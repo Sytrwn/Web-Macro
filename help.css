@@ -1,0 +1,215 @@
+.collapse-navbar-collapse {
+  margin-left: auto;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: "poppins";
+}
+
+.form-center {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control {
+  max-width: 300px;
+  align-items: center;
+  justify-content: center;
+  font-family: "poppins";
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-radius: 8px;
+}
+
+.btn {
+  margin: 0 20px; /* Ubah nilai margin sesuai dengan jarak yang diinginkan */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.btn.btn-success {
+  border: none;
+}
+
+/* content */
+
+body {
+  font-family: "poppins";
+}
+
+.faq-box {
+  margin-top: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 5px;
+  border: 30px;
+  font-family: "Poppins";
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  font-family: "Poppins";
+}
+
+.question {
+  cursor: pointer;
+  background-color: #f2f2f2;
+  padding: 10px;
+  position: relative;
+}
+
+.dropdown-arrow {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  transition: transform 0.3s;
+}
+
+.answer {
+  display: none;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.question:hover {
+  background-color: #e0e0e0;
+}
+
+.question.active {
+  background-color: #16a4e0;
+  color: #fff;
+}
+
+.dropdown-arrow.active {
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.answer.active {
+  display: block;
+}
+
+/* customer service */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Styling Footer */
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #16a4e0; /* Ganti warna sesuai kebutuhan Anda */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+.container1 {
+  max-width: 2000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.left,
+.center,
+.right {
+  flex: 1;
+}
+
+.left p {
+  margin: 0;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.right {
+  text-align: right;
+  margin-right: 20px;
+}
+
+.social-icon {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.social-icon:hover {
+  color: #55acee; /* Warna berubah saat hover (contoh: Twitter) */
+}

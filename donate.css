@@ -1,0 +1,144 @@
+.collapse-navbar-collapse{
+    margin-left:  auto;
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+}
+  
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+
+.form-center {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+  
+
+.form-control {
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+}
+  
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100px;
+    border-radius: 8px;
+}
+
+.btn {
+    margin: 0 20px; /* Ubah nilai margin sesuai dengan jarak yang diinginkan */
+}
+  
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+  
+.btn.btn-success {
+    border: none;
+}
+ 
+ /* CSS untuk layout */
+
+ .container1{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 2000px;
+}
+
+h1{
+    font-size: 200px;
+}
+
+p .footer{
+    font-size: 30px;
+    font-family: 'poppins';
+    font-weight: bold;
+}
+
+
+.image {
+    flex: 1;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.gambar1{
+    border-radius: 20px;
+}
+
+.teks {
+    margin-top: 20px;
+    flex: 2;
+    padding: 20px;
+}
+
+.donate-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Styling Footer */
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #16A4E0; /* Ganti warna sesuai kebutuhan Anda */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.container3{
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.left,
+.center,
+.right {
+    flex: 1;
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.social-icon:hover {
+    color: #55acee; /* Warna berubah saat hover (contoh: Twitter) */
+}
