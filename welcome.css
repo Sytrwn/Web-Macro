@@ -46,48 +46,118 @@
 
 /* Footer */
 
-footer {
+.footer {
   background-color: #16a4e0;
-  color: #fff;
-  text-align: center;
-  padding: 20px 0;
+  margin-top: 40px;
 }
 
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
+.row {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+ul {
+  list-style: none;
+}
+.col {
+  padding: 0 15px;
 }
 
-.left,
-.center,
-.right {
-  flex: 1;
+.col h4 {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
 }
 
-.left p {
-  margin: 0;
-  font-weight: bold;
-  text-align: left;
+.col h5 {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  position: relative;
 }
 
-.center p {
-  margin: 0;
+.col-6 {
+  padding: 0 15px;
 }
 
-.right {
-  text-align: right;
+.col-6 h4 {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
 }
 
-.social-icon {
-  color: #fff;
+.col-6 h5 {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 500;
+  position: relative;
+}
+
+.col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.col ul li a {
+  font-size: 16px;
+  color: #ffffff;
   text-decoration: none;
-  margin-left: 10px;
-  font-size: 18px;
+  font-weight: 300;
 }
 
-.social-icon:hover {
-  color: #55acee; /* Warna berubah saat hover (contoh: Twitter) */
+.col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.col .social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+.col-6 ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.col-6 ul li a {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.col-6 ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+
+.footer-bottom {
+  padding: 20px 0px;
+  border-top: 2px solid #fff;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.footer-bottom .left,
+.footer-bottom .right {
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+.footer-bottom .right {
+  float: right;
 }

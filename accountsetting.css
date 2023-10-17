@@ -1,4 +1,5 @@
 /*PrivacySettings */
+/*Navbar*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
 :root {
   --primary: #eeeeee;
@@ -157,31 +158,23 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 /*content */
-.input {
-  width: 300px;
-  height: 30px;
-  background-color: #d9d9d9;
-  border: none;
-  border-radius: 8px;
-  font-family: "poppins";
+.content {
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 
-#buttoncp {
-  background-color: #000000;
-  font-family: "poppins";
+.kanan {
   border-radius: 8px;
-  margin-left: 6rem;
-  margin-top: 10px;
   border: none;
-  height: 35px;
-  width: 180px;
-  color: #fff;
+  height: auto;
+  width: 80px;
+  float: right;
+  margin-top: -70px;
+  margin-right: 50px;
+  background-color: #e6e6e6;
 }
 
-#content {
-  font-family: "poppins";
-  margin-top: 20px;
-}
 /*footer*/
 .footer {
   background-color: #16a4e0;

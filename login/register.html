@@ -68,10 +68,23 @@
         </div>
         <a
           class="btn btn-dark"
-          href="login.html"
+          href="#"
           role="button"
           style="margin-top: 20px; height: 40px; width: 300px"
+          id="signInLink"
           >Sign In</a
+        >
+
+        <script>
+          var signInLink = document.getElementById("signInLink");
+
+          signInLink.addEventListener("click", function (event) {
+            event.preventDefault();
+            alert("Akun telah dibuat");
+            window.location.href = "login.html";
+          });
+        </script>
+
         >
         <p>Have an account?<a href="login.html">Login here!</a></p>
       </form>

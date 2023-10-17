@@ -40,23 +40,66 @@
     <div>
       <form class="form" action="">
         <h3>Email Address</h3>
-        <input class="input" type="text" style="margin-bottom: 20px" />
+        <input
+          id="emailInput"
+          class="input"
+          type="text"
+          style="margin-bottom: 20px"
+        />
         <h3>Password</h3>
-        <input class="input" type="text" style="margin-bottom: 20px" />
-        <label class="forgot-password">
+        <input
+          id="passwordInput"
+          class="input"
+          type="password"
+          style="margin-bottom: 20px"
+        />
+        <div class="showpw">
+        <strong for="showPassword">Show Password</strong>
+          <input
+            type="checkbox"
+            id="showPassword"
+            style="margin-bottom: 20px"
+          /></div>
           <a href="resetpassword.html" style="color: #022d9b"
             >Forgot your Password?</a
           >
         </label>
-        <a
+        <button
+          id="signInButton"
           class="btn btn-dark"
-          href="../help.html"
-          role="button"
           style="margin-top: 20px; height: 40px; width: 300px"
-          >Sign In</a
         >
-        <p>Don't have account?<a href="register.html">Register here!</a></p>
+          Sign In
+        </button>
+        <p>Don't have an account? <a href="register.html">Register here!</a></p>
       </form>
     </div>
+
+    <script>
+      let emailInput = document.getElementById("emailInput");
+      let passwordInput = document.getElementById("passwordInput");
+      let signInButton = document.getElementById("signInButton");
+      var showPasswordCheckbox = document.getElementById("showPassword");
+
+      showPasswordCheckbox.addEventListener("change", function () {
+        if (showPasswordCheckbox.checked) {
+          passwordInput.type = "text";
+        } else {
+          passwordInput.type = "password";
+        }
+      });
+
+      signInButton.addEventListener("click", function () {
+        let validEmail = emailInput.value === "kayla@gmail.com";
+        let validPassword = passwordInput.value === "kayla123";
+
+        if (validEmail && validPassword) {
+          window.location.href = "../help.html";
+          alert("Anda berhasil masuk");
+        } else {
+          alert("Email atau password Anda salah");
+        }
+      });
+    </script>
   </body>
 </html>
