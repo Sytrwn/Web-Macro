@@ -22,13 +22,12 @@
 
 b,
 strong {
-  font-weight: 500;
+  font-weight: 300;
 }
 
 body {
   height: 100vh;
   width: 100%;
-  background-color: var(--primary);
 }
 
 .profile-dropdown {
@@ -49,7 +48,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: url(assets/profil.jpg);
+  background: url(assets/profile.jpg);
   background-size: cover;
 }
 
@@ -84,7 +83,7 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   padding: 2.5px 2.5px;
   color: #212529;
 }
@@ -237,14 +236,14 @@ ul {
   font-size: 16px;
   color: #ffffff;
   margin-bottom: 30px;
-  font-weight: 500;
+  font-weight: 300;
   position: relative;
 }
 
 .col h5 {
   font-size: 16px;
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 300;
   position: relative;
 }
 
@@ -256,7 +255,7 @@ ul {
   font-size: 16px;
   color: #ffffff;
   margin-bottom: 30px;
-  font-weight: 500;
+  font-weight: 300;
   position: relative;
 }
 
@@ -264,7 +263,7 @@ ul {
   font-size: 16px;
   color: #ffffff;
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 300;
   position: relative;
 }
 

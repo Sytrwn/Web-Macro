@@ -28,7 +28,7 @@ strong {
 body {
   height: 100vh;
   width: 100%;
-  background-color: var(--primary);
+  background-color: var(--white);
 }
 
 .profile-dropdown {
@@ -49,7 +49,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: url(assets/profil.jpg);
+  background: url(assets/profile.jpg);
   background-size: cover;
 }
 
@@ -84,7 +84,6 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-weight: 400;
   padding: 2.5px 2.5px;
   color: #212529;
 }
@@ -175,12 +174,19 @@ h1 {
   margin-top: 20px;
   margin-left: 2px;
   border-radius: 8px;
-  height: 457;
-  width: 606px;
-  margin-right: 20px;
+  height: 350px;
+  width: 525px;
+  margin-right: 35px;
+  margin-left: 35px;
+  margin-bottom: 25px;
 }
 
 .container {
+  display: flex;
+  padding-top: 10px;
+}
+
+.container-1 {
   display: flex;
   padding-top: 10px;
 }
@@ -192,26 +198,12 @@ h1 {
 }
 
 #paragraf {
-  margin-top: 90px;
+  margin-top: 60px;
   font-family: poppins, sans-serif;
   font-weight: semibold;
   text-align: center;
 }
 
-.whatsapp {
-  background-color: #25d366;
-}
-
-.email {
-  background-color: #bb001b;
-}
-
-.instagram {
-  background-color: #e1306c;
-}
-#contact {
-  text-align: center;
-}
 
 /*footer*/
 .footer {
@@ -235,15 +227,15 @@ ul {
   font-size: 16px;
   color: #ffffff;
   margin-bottom: 30px;
-  font-weight: 500;
   position: relative;
+  font-weight: 300;
 }
 
 .col h5 {
   font-size: 16px;
   color: #ffffff;
-  font-weight: 500;
   position: relative;
+  font-weight: 300;
 }
 
 .col-6 {
@@ -254,15 +246,15 @@ ul {
   font-size: 16px;
   color: #ffffff;
   margin-bottom: 30px;
-  font-weight: 500;
   position: relative;
+  font-weight: 300;
 }
 
 .col-6 h5 {
   font-size: 16px;
   color: #ffffff;
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 300;
   position: relative;
 }
 
